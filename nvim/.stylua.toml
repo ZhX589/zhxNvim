@@ -1,0 +1,7 @@
+# ~/.config/nvim/.stylua.toml
+
+# 缩进类型：Spaces (空格)
+indent_type = "Spaces"
+# 缩进宽度：4
+indent_width = 4
+
