@@ -1,0 +1,11 @@
+-- lua/plugins/alpha.lua
+return {
+  {
+    "goolord/alpha-nvim",
+    event = "VimEnter",
+    dependencies = { "nvim-tree/nvim-web-devicons" },
+    config = function()
+      require("config.alpha")
+    end,
+  },
+}
