@@ -1,5 +1,6 @@
+-- -- /home/zhx589/.config/nvim/lua/options.lua
 -- 行号
-vim.opt.number = true 
+vim.opt.number = true
 vim.opt.relativenumber = true
 
 -- 缩进
@@ -15,7 +16,7 @@ vim.opt.linebreak = true
 vim.opt.smoothscroll = true
 
 -- 鼠标
-vim.opt.mouse:append('a')
+vim.opt.mouse:append("a")
 vim.opt.mousemoveevent = true
 
 -- 剪切板
@@ -29,3 +30,4 @@ vim.opt.splitbelow = true
 vim.opt.termguicolors = true
 vim.opt.signcolumn = "yes"
 
+vim.o.formatexpr = "v:lua.require'conform'.formatexpr()"

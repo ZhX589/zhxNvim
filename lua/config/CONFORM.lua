@@ -1,7 +1,6 @@
--- ~/.config/nvim/lua/config/conform.lua
-local conform = require("conform")
-
-conform.setup({
+-- -- /home/zhx589/.config/nvim/lua/config/CONFORM.lua
+-- ~/.config/nvim/lua/config/CONFORM.lua
+return {
   -- 1. 设置各文件类型的格式化工具 (参考文档 Setup)
   formatters_by_ft = {
     lua = { "stylua" },
@@ -24,19 +23,7 @@ conform.setup({
     lsp_format = "fallback",
   },
 
-  -- 3. 自定义 formatter (参考文档 Customizing formatters)
-  -- 这里以 shfmt 为例，展示如何追加参数
-  formatters = {
-    shfmt = {
-      -- 追加额外参数，例如设置缩进为 2 个空格
-      -- 基础参数是 { "-filename", "$FILENAME" }，最终参数将变为 { "-filename", "$FILENAME", "-i", "2" }
-      append_args = { "-i", "2" },
-    },
-  },
-})
+  -- 4. 提供 formatexpr，与 LSP 客户端行为一致 (参考文档)
 
--- 4. 提供 formatexpr，与 LSP 客户端行为一致 (参考文档)
-vim.o.formatexpr = "v:lua.require'conform'.formatexpr()"
-
--- 手动格式化快捷键 <leader>cf 已迁移至 lua/keymaps.lua
-
+  -- 手动格式化快捷键 <leader>cf 已迁移至 lua/keymaps.lua
+}

@@ -1,3 +1,4 @@
+-- -- /home/zhx589/.config/nvim/lua/config/TERMINAL.lua
 -- ==========================================
 -- Terminal Setup (toggleterm.nvim)
 -- ==========================================

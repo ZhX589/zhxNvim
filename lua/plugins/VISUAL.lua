@@ -1,13 +1,14 @@
+-- /home/zhx589/.config/nvim/lua/plugins/VISUAL.lua
 return {
   -- 主题：catppuccin/nvim
-  { 
-    "catppuccin/nvim", 
-    name = "catppuccin", 
-    priority = 1000 
+  {
+    "catppuccin/nvim",
+    name = "catppuccin",
+    priority = 1000,
   },
   -- 状态栏: lualine.nvim
   {
-    'nvim-lualine/lualine.nvim',
-    dependencies = { 'nvim-tree/nvim-web-devicons' }
-  }
+    "nvim-lualine/lualine.nvim",
+    dependencies = { "nvim-tree/nvim-web-devicons" },
+  },
 }

@@ -1,7 +1,8 @@
+-- /home/zhx589/.config/nvim/lua/plugins/INDENT.lua
 return {
   -- Guess Indent: 自动推断缩进方式
   {
-    'nmac427/guess-indent.nvim',
+    "nmac427/guess-indent.nvim",
   },
   -- Indent Blankline: 缩进引导
   {
@@ -10,5 +11,5 @@ return {
     ---@module "ibl"
     ---@type ibl.config
     opts = {},
-  }
+  },
 }

@@ -1,3 +1,4 @@
+-- -- /home/zhx589/.config/nvim/lua/config/neo-tree.lua
 -- 全局快捷键 <leader>e (Neotree toggle) 已迁移至 lua/keymaps.lua
 
 require("neo-tree").setup({
@@ -287,7 +288,7 @@ require("neo-tree").setup({
           ["<S-CR>"] = "close_keep_filter",
           ["<C-CR>"] = "close_clear_filter",
           ["<esc>"] = "close",
-        }
+        },
         -- ["<esc>"] = "noop", -- if you want to use normal mode
         -- ["key"] = function(state, scroll_padding) ... end,
       },

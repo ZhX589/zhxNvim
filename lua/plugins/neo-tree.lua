@@ -1,3 +1,4 @@
+-- /home/zhx589/.config/nvim/lua/plugins/neo-tree.lua
 return {
   {
     "nvim-neo-tree/neo-tree.nvim",
@@ -8,5 +9,5 @@ return {
       "nvim-tree/nvim-web-devicons", -- optional, but recommended
     },
     lazy = false, -- neo-tree will lazily load itself
-  }
+  },
 }
