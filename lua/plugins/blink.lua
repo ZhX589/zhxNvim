@@ -6,6 +6,7 @@ return {
       "saghen/blink.lib",
       -- optional: provides snippets for the snippet source
       "rafamadriz/friendly-snippets",
+      "windwp/nvim-autopairs",
     },
     build = function()
       -- build the fuzzy matcher, optionally add a timeout to `pwait(timeout_ms)`

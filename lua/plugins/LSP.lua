@@ -14,6 +14,7 @@ return {
     },
     opts = {
       ensure_installed = {
+        "clangd",
         "lua_ls",
         "ts_ls",
         "pyright",
